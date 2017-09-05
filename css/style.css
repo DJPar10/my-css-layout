@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	background-color: #474C4D;
+	height: 100%;
+	width: 25%;
+	position: fixed;
+	left: 0;
+}
+
+nav > h1 {
+	color: white;
+	font-size: 2.5em;
+	font-weight: normal;
+	text-align: center;
+	line-height: 60%;
+	margin-top: 50%;
+	width: 20%;
+	margin-left: 30%;
+}
+
+nav > h1 > span {
+	color: black;
+}
+
+nav > .nav-option {
+	margin: 50px;
+	clear: both;
+}
+
+nav > .nav-option > a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	list-style: none;
+}
+
+nav > .nav-option > a > li:hover {
+	border: 2px solid white;
+}
+
+nav > .nav-option > a > li {
+	padding: 5px;
+}
+
+nav > p {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+nav > p > a {
+	text-decoration: none;
+	color: #A3ADAF;
+}
+
+main {
+	width: 75%;
+	float: right;
+	background-image: url("bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: fixed;
+}
+
+hr {
+	margin: 10px 0;
+}
+
+article {
+	width: 70%;
+	float: left;
+}
+
+article > section {
+	padding: 30px 50px;
+}
+
+article 
+> section 
+>.section-title
+> h2
+> a {
+	font-weight: normal;
+	text-decoration: none;
+	color: black;
+}
+
+
+article img {
+	width: 30%;
+	border-radius: 5%;
+	float: left;
+	margin-right: 10px;
+}
+
+.section-article > div > p {
+	overflow: hidden;
+	height: 60px;
+}
+
+.section-article 
+> div 
+> a 
+> div {
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 10px;
+	width: 100px;
+}
+}
+
+aside {
+	width: 25%;
+	float: right;
+}
+
+footer {
+	clear: both;
+}
+
